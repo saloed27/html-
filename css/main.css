@@ -1,0 +1,124 @@
+body{
+	font-family: Arial, sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+.clearfix:after{
+		content: '';
+		display: table;
+		width: 500%;
+		clear: both;
+}
+div{
+	box-sizing: border-box;
+}
+header{
+ 			background: url(../img/color_overlay.png) no-repeat center top / cover;
+ 			background: url(../img/img.png) no-repeat center top / cover;
+ 			height: 900px;
+ 		}
+
+
+nav {
+	float: right;
+	margin-top: 50px;
+}
+
+.container {
+	width: 1400px;
+	margin: 0 auto;
+}
+
+.logo {
+	margin-top: 35px;
+	float: left;
+}
+
+.menu {
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+
+.menu li {
+	float: left;
+	display: block;
+	margin-right: 41px;
+}
+
+.menu a {
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+.titles_first{
+	font-size: 30px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 250px;
+}
+
+.titles_up{
+	font-size: 40px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 50px;
+}
+h1{
+	font-size: 30px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.button{
+	background: url(../img/bg.png) no-repeat center top / cover;
+	color: white;
+	border-radius: 3px;
+	display: block;
+	width: 170px;
+	padding: 20px 20px;
+	margin: 0 auto;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 18px;
+	margin-top: 40px;
+}
+
+.title{
+	padding-top: 100;
+}
+
+.title h2{
+
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 20;
+
+    border: none; /* Убираем границу */
+    background-color: red; /* Цвет линии */
+    color: #c0c0c0; /* Цвет линии для IE6-7 */
+    height: 2px; /* Толщина линии */
+   }
+}
+.Products_item{
+
+}
+
+.Men{
+	font-size: 30px;
+	color: red;
+	text-transform: uppercase;
+	text-align: left;
+	margin-left: : 250px;
+}
